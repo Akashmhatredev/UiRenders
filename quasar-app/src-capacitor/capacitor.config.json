@@ -1,0 +1,14 @@
+{
+  "appId": "card.game.app",
+  "appName": "demo renders",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LottieSplashScreen": {
+      "launchAutoHide": true,
+      "animationLocation": "lottie/animation.json",
+      "loop": true,
+      "delay": 3000
+    }
+  }
+}
