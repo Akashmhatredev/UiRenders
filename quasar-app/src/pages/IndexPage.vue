@@ -1,21 +1,21 @@
 <template>
   <!-- <q-page> -->
-  <ScrollyImages />
+  <!-- <ScrollyImages /> -->
   <!-- </q-page> -->
 </template>
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import ScrollyImages from '../components/ScrollyImages.vue'
+// import { gsap } from 'gsap'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import ScrollyImages from '../components/ScrollyImages.vue'
 
-gsap.registerPlugin(ScrollTrigger)
+// gsap.registerPlugin(ScrollTrigger)
 
 export default {
   name: 'IndexPage',
-  components: {
-    ScrollyImages
-  },
+  // components: {
+  //   ScrollyImages
+  // },
   setup() {
     // You can put logic here if needed
   }
@@ -23,12 +23,4 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0;
-  background-color: #000000;
-  color: white;
-  overscroll-behavior: none;
-  padding: 0;
-  overflow-x: hidden;
-}
 </style>

@@ -63,7 +63,15 @@ onMounted(() => {
 })
 </script>
 
-<style scoped>
+<style >
+body {
+  margin: 0;
+  background-color: #000000;
+  color: white;
+  overscroll-behavior: none;
+  padding: 0;
+  overflow-x: hidden;
+}
 #wrapper {
     overflow: hidden;
     position: fixed;

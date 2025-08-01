@@ -6,6 +6,7 @@ const routes = [
       { path: "", component: () => import("pages/IndexPage.vue") },
       { path: "/swipe", component: () => import("pages/SwipeGallery.vue") },
       { path: "/motion", component: () => import("pages/MotionPath.vue") },
+       { path: "/scrolly", component: () => import("pages/ScrollyImages.vue") },
     ],
   },
 
