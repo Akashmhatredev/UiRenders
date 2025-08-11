@@ -7,6 +7,7 @@ const routes = [
       { path: "/swipe", component: () => import("pages/SwipeGallery.vue") },
       { path: "/motion", component: () => import("pages/MotionPath.vue") },
        { path: "/scrolly", component: () => import("pages/ScrollyImages.vue") },
+       { path: "/scene", component: () => import("pages/SceneAnimation.vue") },
     ],
   },
 
