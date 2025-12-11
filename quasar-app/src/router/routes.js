@@ -9,6 +9,7 @@ const routes = [
        { path: "/scrolly", component: () => import("pages/ScrollyImages.vue") },
        { path: "/scene", component: () => import("pages/SceneAnimation.vue") },
        { path: "/scroll", component: () => import("pages/ScrollAnimation.vue") },
+       { path: "/bot", component: () => import("pages/BotAnmi.vue") },
     ],
   },
 
